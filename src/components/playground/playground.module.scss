@@ -1,0 +1,36 @@
+.playground {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+
+    &__anim {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__grid {
+        position: absolute;
+        top: 28px;
+        left: 24px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 82px);
+        grid-template-rows: repeat(3, 82px);
+    }
+
+    &__result {
+        text-align: center;
+    }
+
+    &__reset {
+        padding: 4px 16px;
+        border: none;
+        background-color: #FED8FE;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
